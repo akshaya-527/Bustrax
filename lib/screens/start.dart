@@ -8,11 +8,20 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      appBar: AppBar(
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.pop(context);  
+          },
+        ),
+        backgroundColor: Colors.transparent, 
+        elevation: 0, 
+      ),
       body: Stack(
         children: [
-          // 🔹 Blue Gradient Background on the Upper Part
           Container(
-            height: MediaQuery.of(context).size.height * 0.45, // Covers upper part
+            height: MediaQuery.of(context).size.height * 0.45, 
             decoration: const BoxDecoration(
               gradient: LinearGradient(
                 colors: [Color(0xFF88C9F9), Color.fromARGB(255, 220, 235, 247), Colors.white], // Light to dark blue
