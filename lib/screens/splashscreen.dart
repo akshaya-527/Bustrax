@@ -1,7 +1,8 @@
+import 'package:bus_trax/screens/start.dart';
 import 'package:bus_trax/screens/welcome.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
-// import 'package:lottie/lottie.dart';
+import 'package:lottie/lottie.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -19,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(const Duration(seconds: 5), () {
       if (mounted) {
         Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (_) => const MyHomePage()),
+          MaterialPageRoute(builder: (_) => const WelcomeScreen()),
         );
       }
     });
@@ -44,12 +45,12 @@ class _SplashScreenState extends State<SplashScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-    //           Lottie.asset(
-    // 'assets/bus.json',
-    //             width: 500,
-    //             height: 500,
-    //             repeat: true,
-    //           ),
+              Lottie.asset(
+    'assets/bus.json',
+                width: 500,
+                height: 500,
+                repeat: true,
+              ),
 
               const SizedBox(height: 10),
 

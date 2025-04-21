@@ -42,18 +42,18 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyAe0MfN3ieDaEmoc7_rnCtpTfrS-OoE_K4',
-    appId: '1:346481897314:web:231d40e60a5ab92163463b',
+    appId: '1:346481897314:web:ae9da1ab10df121563463b',
     messagingSenderId: '346481897314',
     projectId: 'bus-trax',
     authDomain: 'bus-trax.firebaseapp.com',
     databaseURL: 'https://bus-trax-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'bus-trax.firebasestorage.app',
-    measurementId: 'G-ZTCP0NTEEK',
+    measurementId: 'G-0B8207HKTG',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyASYGJ7NgCFdH0ObYxjfYDiCkDyy0I9lFU',
-    appId: '1:346481897314:android:b17ed363a885c5b063463b',
+    appId: '1:346481897314:android:291b555bc2e7904e63463b',
     messagingSenderId: '346481897314',
     projectId: 'bus-trax',
     databaseURL: 'https://bus-trax-default-rtdb.asia-southeast1.firebasedatabase.app',
@@ -62,29 +62,32 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCMtiZ_fgixZ44AxgQipZsEreccFIxv5kE',
-    appId: '1:346481897314:ios:eb37f88e94d3bbea63463b',
+    appId: '1:346481897314:ios:b8ce96c5a8638a1c63463b',
     messagingSenderId: '346481897314',
     projectId: 'bus-trax',
+    databaseURL: 'https://bus-trax-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'bus-trax.firebasestorage.app',
     iosBundleId: 'com.example.busTrax',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyCMtiZ_fgixZ44AxgQipZsEreccFIxv5kE',
-    appId: '1:346481897314:ios:eb37f88e94d3bbea63463b',
+    appId: '1:346481897314:ios:b8ce96c5a8638a1c63463b',
     messagingSenderId: '346481897314',
     projectId: 'bus-trax',
+    databaseURL: 'https://bus-trax-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'bus-trax.firebasestorage.app',
     iosBundleId: 'com.example.busTrax',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
     apiKey: 'AIzaSyAe0MfN3ieDaEmoc7_rnCtpTfrS-OoE_K4',
-    appId: '1:346481897314:web:b591c319b0c3925163463b',
+    appId: '1:346481897314:web:68ba7c9bd88bd31963463b',
     messagingSenderId: '346481897314',
     projectId: 'bus-trax',
     authDomain: 'bus-trax.firebaseapp.com',
+    databaseURL: 'https://bus-trax-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'bus-trax.firebasestorage.app',
-    measurementId: 'G-5DLMQEH8EM',
+    measurementId: 'G-FKTESTNYM4',
   );
 }

@@ -1,34 +1,16 @@
 {
   "project_info": {
     "project_number": "346481897314",
+    "firebase_url": "https://bus-trax-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "bus-trax",
     "storage_bucket": "bus-trax.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:346481897314:android:b17ed363a885c5b063463b",
+        "mobilesdk_app_id": "1:346481897314:android:291b555bc2e7904e63463b",
         "android_client_info": {
           "package_name": "com.example.bus_trax"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyASYGJ7NgCFdH0ObYxjfYDiCkDyy0I9lFU"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:346481897314:android:d2b8a928192ba17363463b",
-        "android_client_info": {
-          "package_name": "com.example.bustrax"
         }
       },
       "oauth_client": [],

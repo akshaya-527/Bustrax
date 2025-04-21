@@ -135,7 +135,7 @@ class _HomePageState extends State<HomePage> {
 	                    child: FadeInUp(duration: const Duration(milliseconds: 1600), child: Container(
 	                      margin: const EdgeInsets.only(top: 50),
 	                      child:  Center(
-	                        child: Text( "${widget.role.toUpperCase()} LOGIN", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),),
+	                        child: Text( "${widget.role.toUpperCase()} ", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),),
 	                      ),
 	                    )),
 	                  )

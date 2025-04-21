@@ -69,7 +69,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     if (context.mounted) {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const MyHomePage()),
+        MaterialPageRoute(builder: (context) => const WelcomScreen()),
       );
     }
   }

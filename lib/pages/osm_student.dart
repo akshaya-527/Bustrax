@@ -19,6 +19,7 @@ class _StudentMapScreenState extends State<StudentMapScreen> {
   LatLng _driverLocation = const LatLng(0, 0);
   LatLng _studentLocation = const LatLng(0, 0);
   double _distance = 0.0;
+  double _estimatedTime = 0.0; 
   String? busName;
   StreamSubscription<DatabaseEvent>? _locationSubscription;
 
@@ -91,6 +92,8 @@ class _StudentMapScreenState extends State<StudentMapScreen> {
 
     setState(() {
       _distance = distanceInMeters / 1000; // Convert meters to kilometers
+    double avgSpeed = 80.0; // Average speed in km/h (adjust if needed)
+    _estimatedTime = (_distance / avgSpeed) * 60; // Convert to minutes
     });
   }
 
@@ -193,7 +196,7 @@ class _StudentMapScreenState extends State<StudentMapScreen> {
                 borderRadius: BorderRadius.circular(10),
               ),
               child: Text(
-                "Distance to Driver: ${_distance.toStringAsFixed(2)} km",
+                "Distance fromo Driver: ${_distance.toStringAsFixed(2)} km",
                 style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
               ),
             ),
