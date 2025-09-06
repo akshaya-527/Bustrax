@@ -1,16 +1,28 @@
-# bus_trax
+#  Bustrax – Real-Time Bus Tracking System  
 
-A new Flutter project.
+**Bustrax** is a real-time bus tracking application developed using **Flutter** and **Firebase Realtime Database**.  
+The app allows students, staff, and administrators to track buses live on a map, improving convenience, safety, and punctuality.  
 
-## Getting Started
+![image](assets/bustrax-main.png)  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+##  Features  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Real-Time Tracking:** Displays the live location of buses using **OpenStreetMap API**.  
+- **User Roles:**  
+  - **Driver:** Can update live locatiion of bus.  
+  - **Student/Staff:** Can view live bus locations.  
+- **Secure Authentication:** Login system powered by **Firebase Authentication**.  
+- **Optimized Performance:** Data synced via **Firebase Realtime Database** for minimal latency.  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+##  Getting Started  
+
+Follow these steps to set up and run Bustrax locally:  
+
+### 1. Clone the repository  
+```bash
+git clone https://github.com/akshaya-527/Bustrax.git
+cd Bustrax
